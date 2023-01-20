@@ -22,3 +22,13 @@ File descriptor ler sistem tarafından atanır ve sistem tarafından yönetilir.
 Ayrıca `open()` fonksiyonu ile birlikte `O_CREAT` ve `O_EXCL` gibi izinlerde kullanılabilir. `O_CREAT` dosya yoksa oluşturulur. `O_EXCL` dosya zaten mevcutsa hata verir.
 
 Açma modları, i/o işlemleri için hangi izinlerin verileceğini tanımlar ve bu nedenle programların dosya veya i/o aygıtlarına nasıl erişeceğini ve i/o işlemlerini nasıl gerçekleştireceğini belirler
+
+
+### Dip Not
+
+- Open ile ne kadar dosya açabileceğinizi öğrenmek için ulimit -n yazarsanız terminala görebilirsiniz.
+- 0 1 2 hali hazırda olan ve özel olarak ayrılmiş fd'lerdir
+	- 0 -> Standart input
+	- 1 -> Standart output
+	- 2 -> Erorr output
+- 3 den 11' e kadar 8 adet open ile dosya açalım ve sonrasında close(fd) ile 5.ci fd'yi kapatırsak ve ardından yeni bir dosya açar isek open ile 12 ye değil 5 'e açacaktır. Sıradan ilk bulduğu yere açar.
