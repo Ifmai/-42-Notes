@@ -1,0 +1,1 @@
+Kendimce üşenmedikçe yazdığım notlarım :)
