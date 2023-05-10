@@ -9,19 +9,19 @@ Doctype bir tip belirleme aracıdır. Web siteleri kodu okurken bu tipe bakarak 
 
 Html kodlarının ana bloğu şu şekilde oluşmaktadır. (Zorunlu bir kuraldır.)
 
-
-< !DOCTYPE html >
-< html >
-    < head >
-        sayfanın başlık ve diğer yapı tipleri burda bulunur.
-    < /head >
-    < body >
-        burası sayfanın içeriğidir
-    < /body >
-< /html >
+    < !DOCTYPE html >
+        < html >
+            < head >
+                sayfanın başlık ve diğer yapı tipleri burda bulunur.
+            < /head >
+              < body >
+                 burası sayfanın içeriğidir
+            < /body >
+        < /html >
 
 
 Head etiketnin alt etiketleri sırasıyla şöyledir.
+
     - < title > (Mutlaka tanımlanmalıdır.)
     -  < style >
     - < base >
@@ -32,6 +32,7 @@ Head etiketnin alt etiketleri sırasıyla şöyledir.
 
 
 Title Etiketi:
+
     - Tarayıcı araç çubuğu üzerinde görüntülenir.
     - Sayfa sık kullanılanlara eklendiğinde başlık olarak görüntülenir.
     - Arama motoru sonuçlarında başlık olarak görüntülenir.
@@ -44,16 +45,19 @@ Style Etiketi:
     - style etiketi "scoped" özelliği belirtilmemişse, head etiketi içerisinde tanımlanmalıdır."
 
 Style içinde kullanabileceğiniz etiketler:
+
     - media : Ses dosyasının otomatik olarak oynatılacağını belirtir.
     - type : text/css için kullanılır. Tipini şekilini belirle vb.
 
 Dip not: style etiketi html dosyası içinde yapılmış olan style'ları ilgilendirir. Başka bir .css dosyasından style alıcaksanız "link" etiketi kullanmanız gerekir.
 
 Base Etiketi :
+
     - base etiketi belgedeki tüm göreceli URL'lar için URL veya hedef belirtir.
     - Bir belgede bir base etiketi bulunabilir ve bu etiket "head" etiketi içerisinde tanımlanmalıdır.
 
 Base içinde kullanabileceğiniz etiketler:
+
     - href : URL alır ve belgedeki tüm göreceli URL'lar için temel URL belirtir.
     - target : Belgedeki tüm bağlantılar ve formlar için hedef belirtir.
     
