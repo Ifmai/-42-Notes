@@ -61,3 +61,25 @@ Base içinde kullanabileceğiniz etiketler:
     - href : URL alır ve belgedeki tüm göreceli URL'lar için temel URL belirtir.
     - target : Belgedeki tüm bağlantılar ve formlar için hedef belirtir.
     
+Meta Etiketi :
+
+    - <meta> etiketi veri hakkında bilgiler verir.
+    - Bu etiket HTML belgesi hakkında meta verileri sağlar. Meta verileri tarayıcıda gözükmezler.
+    - Meta etiketleri genellikle sayfanın description(açıklama), keywords(anahtar kelimeler), author(sayfa yazarı), last modified(son değiştirilme tarihi) ve diğer meta verilerini tanımlamak için kullanılır.
+    - Meta verileri tarayıcılar (sayfa yüklenirken nasıl görüntüleneceği), arama motorları (indexleme ve anahtar kelimeler) veya diğer web servisleri tarafından kullanılırlar.
+
+Metanın içinde kullanabileceğimiz etiketler:
+
+    - charset : karakter kodu.
+    - content : metin.
+    - http-equiv : Bununda içinde kullanabileceğiniz diğer eklentiler : 
+        - content-type
+        - default-style
+        - refresh
+        - örnek <meta http-equiv="refresh" content="20"> sayfayı 20 saniyede bir yeniler.
+    - name : buda http-equiv gibi çok işlevli.
+        - application-name
+        - author : <meta name="authoe" content="github.com/Ifmai"> -> Sayfa yazarının tanımlanması
+        - description : <meta name="description" content="Ifmai ile Html"> -> Sayfa açıklamasanın tanımlanması.
+        - generator
+        - keywords : <meta name="keywords" content="HTML, CSS, Ifmai"> -> Arama motorları için anahtar kelimelerin tanımlanması.
