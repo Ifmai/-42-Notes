@@ -26,7 +26,7 @@ Açma modları, i/o işlemleri için hangi izinlerin verileceğini tanımlar ve 
 
 ### Dip Not
 
-- Open ile ne kadar dosya açabileceğinizi öğrenmek için ulimit -n yazarsanız terminala görebilirsiniz.
+- Open ile ne kadar dosya açabileceğinizi öğrenmek için ulimit -n yazarsanız terminale görebilirsiniz.
 - 0 1 2 hali hazırda olan ve özel olarak ayrılmiş fd'lerdir
 	- 0 -> Standart input
 	- 1 -> Standart output
