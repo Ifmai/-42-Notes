@@ -22,35 +22,36 @@ Html kodlarının ana bloğu şu şekilde oluşmaktadır. (Zorunlu bir kuraldır
 
 
 Head etiketnin alt etiketleri sırasıyla şöyledir.
-- < title > (Mutlaka tanımlanmalıdır.)
-- < style >
-- < base >
-- < link >
-- < meta >
-- < script >
-- < noscript >
+    - < title > (Mutlaka tanımlanmalıdır.)
+    -  < style >
+    - < base >
+    - < link >
+    - < meta >
+    - < script >
+    - < noscript >
 
 
 Title Etiketi:
-- Tarayıcı araç çubuğu üzerinde görüntülenir.
-- Sayfa sık kullanılanlara eklendiğinde başlık olarak görüntülenir.
-- Arama motoru sonuçlarında başlık olarak görüntülenir.
+    - Tarayıcı araç çubuğu üzerinde görüntülenir.
+    - Sayfa sık kullanılanlara eklendiğinde başlık olarak görüntülenir.
+    - Arama motoru sonuçlarında başlık olarak görüntülenir.
 
 Style Etiketi:
 
--style etiketi HTML belgeleri için stil bilgileri tanımlar."
--style etiketi HTML etiketlerinin nasıl işleneceğini(biçimlendirme, görüntüleme) tanımlar.
--HTML belgesi bir çok style etiketi içerebilir.
--style etiketi "scoped" özelliği belirtilmemişse, head etiketi içerisinde tanımlanmalıdır."
+    -style etiketi HTML belgeleri için stil bilgileri tanımlar."
+    -style etiketi HTML etiketlerinin nasıl işleneceğini(biçimlendirme, görüntüleme) tanımlar.
+    -HTML belgesi bir çok style etiketi içerebilir.
+    -style etiketi "scoped" özelliği belirtilmemişse, head etiketi içerisinde tanımlanmalıdır."
 
 Style içinde kullanabileceğiniz etiketler:
     -media : Ses dosyasının otomatik olarak oynatılacağını belirtir.
     -type : text/css için kullanılır. Tipini şekilini belirle vb.
+
 Dip not: style etiketi html dosyası içinde yapılmış olan style'ları ilgilendirir. Başka bir .css dosyasından style alıcaksanız "link" etiketi kullanmanız gerekir.
 
 Base Etiketi :
--base etiketi belgedeki tüm göreceli URL'lar için URL veya hedef belirtir.
--Bir belgede bir base etiketi bulunabilir ve bu etiket "head" etiketi içerisinde tanımlanmalıdır.
+    -base etiketi belgedeki tüm göreceli URL'lar için URL veya hedef belirtir.
+    -Bir belgede bir base etiketi bulunabilir ve bu etiket "head" etiketi içerisinde tanımlanmalıdır.
 
 Base içinde kullanabileceğiniz etiketler:
     -href : URL alır ve belgedeki tüm göreceli URL'lar için temel URL belirtir.
