@@ -43,4 +43,16 @@ Style Etiketi:
 -HTML belgesi bir çok style etiketi içerebilir.
 -<style> etiketi "scoped" özelliği belirtilmemişse, <head> etiketi içerisinde tanımlanmalıdır.
 
-Dip not:
+Style içinde kullanabileceğiniz etiketler:
+    -media : Ses dosyasının otomatik olarak oynatılacağını belirtir.
+    -type : text/css için kullanılır. Tipini şekilini belirle vb.
+Dip not: style etiketi html dosyası içinde yapılmış olan style'ları ilgilendirir. Başka bir .css dosyasından style alıcaksanız <link> etiketi kullanmanız gerekir.
+
+Base Etiketi :
+-<base> etiketi belgedeki tüm göreceli URL'lar için URL veya hedef belirtir.
+-Bir belgede bir <base> etiketi bulunabilir ve bu etiket <head> etiketi içerisinde tanımlanmalıdır.
+
+Base içinde kullanabileceğiniz etiketler:
+    -href : URL alır ve belgedeki tüm göreceli URL'lar için temel URL belirtir.
+    -target : Belgedeki tüm bağlantılar ve formlar için hedef belirtir.
+    
