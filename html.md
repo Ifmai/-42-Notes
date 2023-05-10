@@ -83,3 +83,32 @@ Metanın içinde kullanabileceğimiz etiketler:
         - description : <meta name="description" content="Ifmai ile Html"> -> Sayfa açıklamasanın tanımlanması.
         - generator
         - keywords : <meta name="keywords" content="HTML, CSS, Ifmai"> -> Arama motorları için anahtar kelimelerin tanımlanması.
+
+Script Etiketi :
+
+    - <script> etiketi istemci tarafında çalıştırılacak bir script tanımlar. JavaScript gibi.
+    - <script> etiketi içerisinde script ifadeleri olabileceği gibi src özelliği ile harici bir script dosyası çağırılabilir.
+    - Javascript ile HTML belgelerinizi statik bir yapıdan dinamik bir yapıya geçirebilirsiniz. Değişen içerikler, form kontrolleri vd.
+
+Script içinde kullabileceğimiz etiketler :
+
+    - asnyc : async.//Dip Not a bak.
+    - charset : Karakter kodu.
+    - defer : defer.
+    - src : src.
+    - type : tip.
+
+Dip Not :
+    
+    - Src özelliği tanımlanmış <script> etiketinin içeriği boş olmalıdır.
+    - <noscript> etiketi ile JavaScript desteklemeyen veya pasif edilmiş tarayıcılar için bilgi verilebilir.
+    - Harici komut dosyası çalıştırmanın birkaç yolu vardır:
+    - async="asnyc" özelliği belirtildiğinde, komut sayfanın öğeleri ile uyumsuz çalışır.(Sayfa çözümlenmeye devam ederken komut yürütülür.Uyumsuz)
+    - async="asnyc" özelliği belirtilmez ve defer="defer" özelliği belirtilirse, sayfa çözümlemesi tamamlandıktan sonra komut yürütülür.(Erteleme)
+    - Her iki özellikde belirtilmişse komut derhal getirilir ve yürütülür, daha sonra tarayıcı sayfayı çözümlemeye devam eder.
+
+Noscript etiketi : 
+
+    - <noscript> etiketi komutların devre dışı bırakıldığı veya komutları desteklemeyen tarayıcılar için alternatif bir içerik tanımlar.
+    - Bu etiket ile <body> etiketinin sahip olabileceği tüm etiketler kullanılabilir.
+    - <noscript> etiketi belgenin çerçeve desteklemeyen bir başka sayfaya bağlanması için veya gerektiğinde kullanıcıya mesaj vermek için kullanılabilir.
